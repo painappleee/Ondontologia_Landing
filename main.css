@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 .logo-nav{
     font-family: 'Open Sans';
@@ -17,7 +18,7 @@
 .item-nav{
     margin-top: 48px;
     margin-bottom: 51px;
-    margin-right: 293px;
+    margin-right: 353px;
 }
 
 .nav-link{
@@ -46,6 +47,100 @@
     border: 0.5px solid #00296D;
     border-radius: 15px;
     background-color: white;
+}
 
+.ball-img{
+    background-image: url(/images/Rectangle\ 692.png);
+    background-repeat: no-repeat;
+    height: 1007px;
+    width: 1728px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-position: top right;
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-transform: capitalize;
+    color: #000000;
+    
+    
+}
+
+.smoth-img{
+    width: 594.97px;
+    height: 923px;
+    border-radius: 15px;
+    margin-right: 148px;
+    margin-left: 502px;
+    margin-bottom: 57px;
+}
+
+.text-intro{
+    width: 470px;
+    height: 644px;
+    margin-top: 174px;
+    margin-bottom: 181px;
+}
+
+.cordoba{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;    
+    color: #2977D5; 
+    margin-bottom: 60px;
+}
+
+.una{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #00296D;
+    margin-bottom: 60px;
+}
+
+.lore{
+    font-family: 'Source Sans 3';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #252525;
+    margin-bottom: 60px;
+}
+
+.saca-button{
+    width: 200px;
+    height: 50px;
+    background: #44C6E9;
+    border-radius: 15px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #FFF9FD;
+    margin: -7px;
+}
+
+.under-saca{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background: #2977D5;
+    margin-right: 101px;
+}
+
+.nuestro{
+    margin-top: 12px;
+    margin-bottom: 12px;    
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #666666;
 }
 
