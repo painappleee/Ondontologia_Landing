@@ -6,70 +6,489 @@
     <title>Ondontologia Integral</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm">
-        <div class="container-fluid ">
+    <div class="main-container">
+      <nav class="navbar navbar-expand-sm p-0">
+          <div class="container-fluid p-0">
             <div class="navbar-nav logo-nav" >
-                <a class="navbar-brand" href="#">
-                    <img src="/images/tooth-gum.svg"></a>
-                <div style="text-align: center;">
-                    <div style="
-                    font-weight: 600;
-                    font-size: 24px; margin-bottom: 15px;">Ondontologia Integral</div>
-                    <div style="font-weight: 400;
-                    font-size: 16px;
-                    line-height: 22px;">Salud & Estetica Dental</div>
-                </div>
-            </div>           
-
-            <!--Кнопочка гамбургера-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav item-nav">
-              <a class="nav-link" href="#">Inicio</a>
-              <a class="nav-link" href="#">Servicios</a>
-              <a class="nav-link" href="#">Nosotros</a>
-              <a class="nav-link"  href="#">Contacto</a>
-            </div>
-
-            <div class="navbar-nav">
-            <button class="headButton">Saca Tu Turno</button>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      <section class="ball-img">
-        <div style="display: flex; margin-left: 0px;">
-          <div class="text-intro">
-            <div class="cordoba">En Cordoba Capital</div>
-            <div class="una">
-              Una excelente<br>
-              experiencia<br>
-              <span style="color: #2977D5">Odontológica</span>
-            </div>
-            <div class="lore">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit<br> molestie, rhoncus luctus arcu ut eros augue. Eu<br> commodo laoreet parturient quam purus magna pretium<br>luctus.
-            </div>
-            <div style="display: flex;">
-            <div class="under-saca">
+              <a class="navbar-brand" href="#">
+                <img alt="clinic logo" src="/images/tooth-gum.svg">
+              </a>
               <div>
-                <button class="saca-button">Saca tu turno</button>
+                <div class="ontodontologia">
+                  Ondontologia Integral
+                </div>
+                <div class="salud">
+                  Salud & Estetica Dental
+                </div>
               </div>
-            </div>            
-            <div class="nuestro">Nuestro Servicios</div>
+            </div>         
+            <div class="collapse navbar-collapse"     
+                  id="navbarNavAltMarkup">
+              <div class="navbar-nav item-nav">
+                <a class="nav-link" href="#">Inicio</a>
+                <a class="nav-link" href="#">Servicios</a>
+                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link"  href="#">Contacto</a>
+              </div>
+              <div class="navbar-nav">
+                <button class="head-button">Saca Tu Turno</button>
+              </div>
             </div>
           </div>
-          <div style="width:594px; height: 893px;">
-            <img class="smoth-img" src="/images/image 1.png">
-          </div>
-        </div>  
+      </nav>
+      <section class="section1">
+          <div class="d-flex">
+            <div class="text-intro">
+              <div class="cordoba">En Cordoba Capital</div>
+              <div class="una">
+                Una excelente<br>
+                experiencia<br>
+                <span class="blue-text">Odontológica</span>
+              </div>
+              <div class="lore">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit<br> molestie, rhoncus luctus arcu ut eros augue. Eu<br> commodo laoreet parturient quam purus magna pretium<br>luctus.
+              </div>
+              <div class="d-flex">
+              <div class="under-saca">
+                <div>
+                  <button class="saca-button">Saca tu turno</button>
+                </div>
+              </div>            
+              <div class="nuestro">Nuestro Servicios</div>
+              </div>
+            </div>
+              <img class="smoth-img" alt="dentist appontment" src="/images/image 1.png">
+          </div>  
       </section>
-
+      <section class="section2">
+          <div class="section2-inner">
+              <div class="direccion">
+                <div>
+                  <img class="direccion-image" alt="map icon" src="/images/map.png">
+                </div>
+                <div>
+                  <div class="section2-head">
+                    Dirección
+                  </div>
+                  <div class="section2-text">
+                    <div class="margin-text">Av. Color 1560</div>
+                    <div>Cordoba, Cordoba Capital</div>
+                  </div>
+                  </div>
+              </div>
+              <div class="email">
+                <img class="email-image" alt="letter icon" src="/images/letter.png">
+                <div>
+                  <div class="section2-head">Email</div>
+                  <div class="section2-text">
+                    <div class="margin-text">info@tudentista.com.ar</div>
+                    <div>info@tudentista.com.ar</div>
+                  </div>
+                </div>
+              </div>
+              <div class="phone">
+              <img class="phone-image" alt="phone-icon" src="/images/phone.png">
+              <div>
+                <div class="section2-head">Telefonos</div>
+                <div class="section2-text">
+                  <div class="margin-text">351 7608XXX</div>
+                  <div>3541 7825XXX</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="section3">
+          <div class="section3-inner">
+            <div class="especialidades">Especialidades</div>
+            <div class="nuestros">Nuestros Servicios</div>
+            <div class="cards">
+              <div class="d-flex">
+                <div class="card">
+                  <div>
+                    <img src="/images/implant.png" alt="implant" class="implant-image">
+                    <div class="card-head">Implantes</div>
+                    <div class="card-text">
+                      Los implantes dentales son un sustituto artificial de<br>
+                      los dientes y sus raíces. Generalmente de forma<br>
+                      roscada, los implantes poseen un aspecto y<br>
+                      sensación similares a los dientes naturales logrando<br>
+                      de esta manera una mayor comodidad, seguridad y<br>
+                      confianza en su uso, respecto de otros métodos.
+                    </div>
+                    <div class="d-flex">
+                      <div class="ver-mas">Ver Mas</div>
+                      <div><img class="vector-img" src="/images/Vector (1).png">
+                      </div>
+                    </div>             
+                  </div>
+                </div>
+                <div class="card">
+                  <div>
+                    <img src="/images/braces-rubber-bands.png" alt="braces" class="braces-image">
+                    <div class="card-head">Ortodoncia</div>
+                    <div class="card-text">
+                      La ortodoncia con brackets de cerámica ofrece una<br>
+                      estética más cuidada, en comparación a la<br>
+                      ortodoncia metálica. Los resultados en cuanto a<br>
+                      alineación dentaria son similares a la alternativa<br>
+                      mencionada. Opción ideal para quienes buscan<br>
+                      cuidar la estética y el bolsillo.
+                    </div>
+                    <div class="d-flex">
+                      <div class="ver-mas">Ver Mas</div>
+                      <div><img class="vector-img" src="/images/Vector (1).png">
+                      </div>
+                    </div>             
+                  </div>
+                </div>
+                <div class="card">
+                  <div>
+                    <img src="/images/cavity.png" alt="cavity" class="golden-crown-i">
+                    <div class="card-head">Implantes</div>
+                    <div class="card-text">
+                      Los implantes dentales son un sustituto artificial de<br>
+                      los dientes y sus raíces. Generalmente de forma<br>
+                      roscada, los implantes poseen un aspecto y<br>
+                      sensación similares a los dientes naturales logrando<br>
+                      de esta manera una mayor comodidad, seguridad y<br>
+                      confianza en su uso, respecto de otros métodos.</div>
+                    <div class="d-flex">
+                      <div class="ver-mas">Ver Mas</div>
+                      <div><img class="vector-img" src="/images/Vector (1).png">
+                      </div>
+                    </div>             
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="card">
+                  <div>
+                    <img src="/images/tooth-shine.png" alt="shine-implant" class="implant-image">
+                    <div class="card-head">Implantes</div>
+                    <div class="card-text">
+                      Los implantes dentales son un sustituto artificial de<br>
+                      los dientes y sus raíces. Generalmente de forma<br>
+                      roscada, los implantes poseen un aspecto y<br>
+                      sensación similares a los dientes naturales logrando<br>
+                      de esta manera una mayor comodidad, seguridad y<br>
+                      confianza en su uso, respecto de otros métodos.</div>
+                    <div class="d-flex">
+                      <div class="ver-mas">Ver Mas</div>
+                      <div><img class="vector-img" src="/images/Vector (1).png">
+                      </div>
+                    </div>             
+                  </div>
+                </div>
+                <div class="card">
+                  <div>
+                    <img src="/images/crown-alt.png" alt="crown" class="crown-image">
+                    <div class="card-head">Implantes</div>
+                    <div class="card-text">
+                      Los implantes dentales son un sustituto artificial de<br>
+                      los dientes y sus raíces. Generalmente de forma<br>
+                      roscada, los implantes poseen un aspecto y<br>
+                      sensación similares a los dientes naturales logrando<br>
+                      de esta manera una mayor comodidad, seguridad y<br>
+                      confianza en su uso, respecto de otros métodos.</div>
+                    <div class="d-flex">
+                      <div class="ver-mas">Ver Mas</div>
+                      <div><img class="vector-img" src="/images/Vector (1).png">
+                      </div>
+                    </div>             
+                  </div>
+                </div>
+                <div class="card">
+                  <div>
+                    <img src="/images/golden-crown.png" alt="golden crown" class="golden-crown-image">
+                    <div class="card-head">Implantes</div>
+                    <div class="card-text">
+                      Los implantes dentales son un sustituto artificial de<br>
+                      los dientes y sus raíces. Generalmente de forma<br>
+                      roscada, los implantes poseen un aspecto y<br>
+                      sensación similares a los dientes naturales logrando<br>
+                      de esta manera una mayor comodidad, seguridad y<br>
+                      confianza en su uso, respecto de otros métodos.</div>
+                    <div class="d-flex">
+                      <div class="ver-mas">Ver Mas</div>
+                      <div><img class="arrow-image" alt="arrow" src="/images/Vector (1).png">
+                      </div>
+                    </div>             
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>        
+      </section>
+      <section class="section4">
+          <div class="section4-inner">
+            <div class="testi">Testimonios</div>
+            <div class="lo-que">Lo que opinan nuestros Pacientes</div>
+            <div class="d-flex">
+              <div class="section4-slide"> 
+                <div class="slide-inner">
+                  <div class="d-flex mb-3">
+                    <div class="slide-name">
+                      Matias Gomez
+                    </div>
+                    <div class="rating">
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                    </div>
+                  </div>                   
+                  <div class="slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing<br>
+                    elit conubia, massa facilisi lectus ullamcorper<br>
+                    ridiculus potenti iaculis nibh, interdum faucibus ad<br>
+                    diam vivamus vehicula fames.
+                  </div>
+                </div>              
+              </div> 
+              <div class="section4-slide">
+                <div class="slide-inner">
+                  <div class="d-flex mb-3">
+                    <div class="slide-name">
+                      Maria Paz
+                    </div>
+                    <div class="rating">
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                    </div>
+                  </div>                   
+                  <div class="slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing<br>
+                    elit conubia, massa facilisi lectus ullamcorper<br>
+                    ridiculus potenti iaculis nibh, interdum faucibus ad<br>
+                    diam vivamus vehicula fames.
+                  </div>
+                </div>
+          
+              </div>          
+              <div class="section4-slide"> 
+                <div class="slide-inner">
+                  <div class="d-flex mb-3">
+                    <div class="slide-name">
+                      Silvia Rios
+                    </div>
+                    <div class="rating" >
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                      <i class="fa-sharp fa-solid fa-star m-1 star-color"></i>
+                    </div>
+                  </div>                   
+                  <div class="slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing<br>
+                    elit conubia, massa facilisi lectus ullamcorper<br>
+                    ridiculus potenti iaculis nibh, interdum faucibus ad<br>
+                    diam vivamus vehicula fames.
+                  </div>
+                </div>              
+              </div>         
+            </div>
+            <div class="dots4">
+              <i class="fa-solid fa-circle dots-color1"></i>
+              <i class="fa-solid fa-circle dots-color2"></i>
+              <i class="fa-solid fa-circle dots-color1"></i>
+              <i class="fa-solid fa-circle dots-color1"></i>
+              <i class="fa-solid fa-circle dots-color1"></i>
+            </div>
+            <button class="section4-button">
+              Ver Mas Reviews
+            </button>           
+          </div>      
+      </section>      
+      <section class="section5">
+            <div class="section5-inner">
+              <img src="/images/pexels-antoni-shkraba-5215024 1.png" alt="doctor" class="doctor-img">
+              <div class="section5-text">
+                <div class="sobre">Sobre Mi</div>
+                <div class="dra">Dra. Patricia Nieves Kiriaco </div>
+                <div class="dra-info">
+                  <ul>
+                    <li>Médica Cirujano, graduada en la Universidad Nacional de Córdoba, Argentina.</li>
+                    <li>Odontóloga, graduada en la Universidad de París, Francia</li>
+                    <li>Docente de la Universidad Nacional de Córdoba desde el año 1975</li>
+                    <li>Miembro de las siguientes Academias:
+                        <ul type="disc">
+                          <li>A.L.A.O: Academia Latinoamericana de Oseointegración.</li>
+                          <li>A.I.I.O: Academia Internacional de Implantes y Oseointegración . Miembro Fundador</li>
+                          <li>A.V.O.I.O: Academia Venezolana de Oseointegración e Implantologìa Oral. Miembro Honorario.</li>
+                          <li>Pierre Fauchard Academy: Academia de Honor de Odontologìa de E.E.U.U.</li>
+                          <li>A.I.I.P: Academia Internacional de Implantología y Periodoncia – Barcelona. Presidente Internacional.</li>
+                        </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>          
+            </div>
+      </section>
+      <section class="section6">
+          <div class="section6-inner">
+            <div class="section6-text">Las Instalaciones</div>
+            <div class="section6-head">Nuestra Clinica</div>
+            <div >
+              <div id="carouselExampleControls"  class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active d-flex">      
+                    <img src="/images/pexels-anna-shvets-3845981 1.png" class="carousel-img-space" alt="doctor-anna-app1">
+                    <img src="/images/pexels-anna-shvets-3845729 1.png" alt="doctor-anna-app2">
+                  </div>
+                </div>
+                
+                <div class="dots6">
+                  <i class="fa-solid fa-circle dots-color1"></i>
+                  <i class="fa-solid fa-circle dots-color1"></i>
+                  <i class="fa-solid fa-circle dots-color1"></i>
+                  <i class="fa-solid fa-circle dots-color3"></i>
+                  <i class="fa-solid fa-circle dots-color1"></i>
+                </div>
+              </div>            
+            </div>
+          </div>       
+      </section>
+      <section class="section7">
+          <div class="section7-inner">
+            <div class="section7-text text-center">Sacate las dudas</div>
+            <div class="section7-head text-center">Preguntas Frecuentes</div>
+            <details class="section7-details" >
+              <summary class="section7-summary">¿Que Obras sociales aceptan?</summary>
+              <p class="section7-info">Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh,<br>
+                interdum faucibus ad diam vivamus vehicula fames. Convallis ornare praesent mollis at habitasse morbi eu ridiculus, tristique proin<br>
+                venenatis dictum nisl volutpat interdum, eleifend velit erat mi penatibus nibh curabitur. Vestibulum augue condimentum luctus<br>
+                auctor nullam imperdiet magna, mattis scelerisque erat odio aliquam risus nam morbi, accumsan dapibus montes facilisis<br>
+                suspendisse rhoncus.
+                </p>
+            </details>
+            <details class="section7-details" >
+              <summary class="section7-summary">¿Que Obras sociales aceptan?</summary>
+              <p class="section7-info">Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh,<br>
+                interdum faucibus ad diam vivamus vehicula fames. Convallis ornare praesent mollis at habitasse morbi eu ridiculus, tristique proin<br>
+                venenatis dictum nisl volutpat interdum, eleifend velit erat mi penatibus nibh curabitur. Vestibulum augue condimentum luctus<br>
+                auctor nullam imperdiet magna, mattis scelerisque erat odio aliquam risus nam morbi, accumsan dapibus montes facilisis<br>
+                suspendisse rhoncus.
+                </p>
+            </details>
+            <details class="section7-details">
+              <summary class="section7-summary">¿Que Obras sociales aceptan?</summary>
+              <p class="section7-info">Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh,<br>
+                interdum faucibus ad diam vivamus vehicula fames. Convallis ornare praesent mollis at habitasse morbi eu ridiculus, tristique proin<br>
+                venenatis dictum nisl volutpat interdum, eleifend velit erat mi penatibus nibh curabitur. Vestibulum augue condimentum luctus<br>
+                auctor nullam imperdiet magna, mattis scelerisque erat odio aliquam risus nam morbi, accumsan dapibus montes facilisis<br>
+                suspendisse rhoncus.
+              </p>
+              <div>
+              </div>
+            </details>
+            <details class="section7-details">
+              
+              <summary class="section7-summary">
+                ¿Que Obras sociales aceptan?
+              </summary>
+              <p class="section7-info">Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh,<br>
+                interdum faucibus ad diam vivamus vehicula fames. Convallis ornare praesent mollis at habitasse morbi eu ridiculus, tristique proin<br>
+                venenatis dictum nisl volutpat interdum, eleifend velit erat mi penatibus nibh curabitur. Vestibulum augue condimentum luctus<br>
+                auctor nullam imperdiet magna, mattis scelerisque erat odio aliquam risus nam morbi, accumsan dapibus montes facilisis<br>
+                suspendisse rhoncus.
+                </p>
+            </details>
+            <details class="section7-details">
+              <summary class="section7-summary">¿Que Obras sociales aceptan?</summary>
+              <p class="section7-info">Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh,<br>
+                interdum faucibus ad diam vivamus vehicula fames. Convallis ornare praesent mollis at habitasse morbi eu ridiculus, tristique proin<br>
+                venenatis dictum nisl volutpat interdum, eleifend velit erat mi penatibus nibh curabitur. Vestibulum augue condimentum luctus<br>
+                auctor nullam imperdiet magna, mattis scelerisque erat odio aliquam risus nam morbi, accumsan dapibus montes facilisis<br>
+                suspendisse rhoncus.
+                </p>
+            </details>
+          </div>
+      </section>
+      <section class="section8">
+          <div class="section8-inner">
+            <div class="section8-head">
+              <div class="section6-text">Saca un turno</div>
+              <div class="section6-head">Contacto</div>
+            </div>
+            <div class="section8-cards">
+              <div class="contact-info">
+                <div class="contacts">
+                  <div>
+                    <img class="card-img" src="/images/sms.png" alt="sms">  
+                  </div>
+                  <div>
+                    <p class="card-head-text">Escribinos al Mail</p>
+                    <p>info@tudentista.com.ar</p>
+                  </div>                
+                </div>
+                <div class="contacts myborder">
+                  <div>
+                    <img class="card-img" src="/images/whatsup.png" alt="whatsup">  
+                  </div>
+                  <div>
+                    <p class="card-head-text">Chatea con Nosotros</p>
+                    <p>+54 35176085XX</p>
+                  </div>                
+                </div>
+                <div class="contacts myborder">
+                  <div>
+                    <img class="card-img" src="/images/phone-contact.png" alt="phone">  
+                  </div>
+                  <div>
+                    <p class="card-head-text">Llamanos</p>
+                    <p>0810 888 90XX</p>
+                  </div>                
+                </div>
+                <div class="contacts">
+                  <div>
+                    <img class="map-img" src="/images/card.png" alt="map">  
+                  </div>
+                  <div>
+                    <p class="mb-4">Visitanos</p>
+                    <p class="mb-3">Av. Color 1338, Barrio Alberdi</p>
+                    <p>Lunes a Viernes 8 a 18</p>
+                  </div>                
+                </div>
+                <div class="contact-images">
+                  <img class="contact-logo" src="/images/facebook.png" alt="facebook">
+                  <img class="contact-logo" src="/images/in.png" alt="in">
+                  <img class="contact-logo" src="/images/inst.png" alt="instagram">
+                </div>
+              </div>
+              <div class="contact-form">
+                <div class="ponete">Ponete en contacto para coordinar un turno</div>
+                <div class="fields">
+                  <input class="myinput" placeholder="Nombre"/>                
+                </div>
+                <div class="fields">
+                  <input class="myinput" placeholder="Email"/>                
+                </div>
+                <div class="fields">
+                  <input class="myinput" placeholder="Telefono"/>                
+                </div>
+                <div class="fields problem-input">
+                  <textarea class="mytextarea" rows="4" placeholder="Problema"></textarea>               
+                </div>
+                <button class="enviar-button">Enviar</button>
+              </div>
+            </div>
+          </div>
+          <img class="section8-card" src="/images/image 2.png" alt="card">
+          <div class="section8-bottom">
+            Diseñado por Uncoder.com.ar
+          </div>
+      </section>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </script>
   </body>
 </html>
+
+
+
